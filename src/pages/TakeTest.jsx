@@ -71,7 +71,8 @@ const TakeTest = () => {
 
         if (result.status === 201) {
           toast.success('Test submitted successfully');
-          navigate(`/results/${result.data.result._id}`);
+          console.log("results", result.data.result);
+          navigate(`/results/${result.data.result.test}`);
         } else {
           toast.error('Error submitting test');
         }
