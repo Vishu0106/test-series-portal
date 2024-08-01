@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://test-series-portal.onrender.com/api/v1', 
+  baseURL: 'https://testseries-bakend.onrender.com/api/v1', 
   headers: {
     'Content-Type': 'application/json',
   },
