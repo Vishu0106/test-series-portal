@@ -1,4 +1,4 @@
-import image from '../src/assets/public.gif'
+import image from '../assets/public.gif'
 
 function Footer() {
 
